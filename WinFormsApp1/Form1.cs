@@ -20,18 +20,16 @@ namespace WinFormsApp1
         Timer timer2 = new Timer();
         Timer timer3 = new Timer();
         Timer timer4 = new Timer();
-        int x1;
-        int y1;
 
         void timercall()
         {
-            timer1.Interval = 100;
+            timer1.Interval = 50;
             timer1.Enabled = false;
-            timer2.Interval = 100;
+            timer2.Interval = 50;
             timer2.Enabled = false;
-            timer3.Interval = 100;
+            timer3.Interval = 50;
             timer3.Enabled = false;
-            timer4.Interval = 100;
+            timer4.Interval = 50;
             timer4.Enabled = false;
         }
         
